@@ -9,12 +9,13 @@ public int calculate(String s) {
             return 0;
         }
         
-        // last number
+        // previous number
         int num = 0;
         
         // + default since we just push it to the stack
         char sign = '+';
         
+        // Add up the whole stack for total result
         Stack<Integer> stack = new Stack<>();
         
         for(int i = 0; i < s.length(); i++){
