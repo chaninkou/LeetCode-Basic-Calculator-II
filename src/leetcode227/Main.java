@@ -2,7 +2,7 @@ package leetcode227;
 
 public class Main {
 	public static void main(String[] args) {
-		String s = " 3 + 3 - 2 / 3 + 4 * 5";
+		String s = " 3 + 3 - 2 / 2 + 4 * 5    ";
 		
 		System.out.println("Input: " + s);
 		
